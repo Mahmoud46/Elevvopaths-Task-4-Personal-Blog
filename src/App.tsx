@@ -27,7 +27,7 @@ export default function App(): ReactNode {
 				<Route path="*" element={<NotFound />} />
 			</Routes>
 			<Footer />
-			<p>&copy; 2025 Mahmoud Zakaria. All rights reserved.</p>
+			<p className="copy">&copy; 2025 Mahmoud Zakaria. All rights reserved.</p>
 		</>
 	);
 }

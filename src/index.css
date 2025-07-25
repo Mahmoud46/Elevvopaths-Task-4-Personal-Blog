@@ -59,3 +59,9 @@ a {
 .material-symbols-outlined {
 	transition: 0.5s ease-in-out all;
 }
+
+.copy {
+	color: var(--fg-gray-color);
+	text-align: center;
+	font-size: 0.9rem;
+}

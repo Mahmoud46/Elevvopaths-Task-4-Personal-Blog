@@ -2,7 +2,7 @@
 	"articles": [
 		{
 			"id": "c4bbfe7c-4aef-467a-a0c0-e2df6e167d02",
-			"img": "/src/assets/articles/the_rise_of_multimodal_ai.jpg",
+			"img": "/articles/the_rise_of_multimodal_ai.jpg",
 			"title": "The Rise of Multimodal AI: Merging Vision, Language, and Sound",
 			"date": "3 days ago",
 			"category": "Artificial Intelligence",
@@ -11,7 +11,7 @@
 		},
 		{
 			"id": "31b86489-0759-49fe-80c2-7da11a75a4b6",
-			"img": "/src/assets/articles/wearable_biosensors.jpg",
+			"img": "/articles/wearable_biosensors.jpg",
 			"title": "Wearable Biosensors: The Next Frontier in Personalized Health",
 			"date": "Jul. 19, 2025",
 			"category": "Biomedical Engineering",
@@ -20,7 +20,7 @@
 		},
 		{
 			"id": "e263e3e4-b949-43e0-ae65-d77dd7f57d4c",
-			"img": "/src/assets/articles/beyond_the_hype.jpg",
+			"img": "/articles/beyond_the_hype.jpg",
 			"title": "Beyond the Hype: Real-World Challenges in Deploying LLMs at Scale",
 			"date": "Jul. 14, 2025",
 			"category": "Software Engineering / AI",
@@ -29,7 +29,7 @@
 		},
 		{
 			"id": "ae7e4bbf-8054-4a9e-83c1-541a7d1b9e5c",
-			"img": "/src/assets/articles/digital_twins_in_biomedical_devices.jpg",
+			"img": "/articles/digital_twins_in_biomedical_devices.jpg",
 			"title": "Digital Twins in Biomedical Devices: Simulating the Human Body",
 			"date": "Jul. 10, 2025",
 			"category": "Biomedical Engineering",
@@ -38,7 +38,7 @@
 		},
 		{
 			"id": "f6b18b89-d380-4644-ae0e-2fc6a2fd334b",
-			"img": "/src/assets/articles/ai_agents_and_the_shift_toward_autonomy_in_software_systems.jpg",
+			"img": "/articles/ai_agents_and_the_shift_toward_autonomy_in_software_systems.jpg",
 			"title": "AI Agents and the Shift Toward Autonomy in Software Systems",
 			"date": "Jul. 8, 2025",
 			"category": "Artificial Intelligence",
@@ -47,7 +47,7 @@
 		},
 		{
 			"id": "926e7dd5-2397-4ad2-a624-b4b92e2b0ce6",
-			"img": "/src/assets/articles/next_gen_prosthetics.jpg",
+			"img": "/articles/next_gen_prosthetics.jpg",
 			"title": "Next-Gen Prosthetics: Brain-Machine Interfaces (BMI) Are Becoming Real",
 			"date": "Jul. 4, 2025",
 			"category": "Biomedical Engineering",
@@ -56,7 +56,7 @@
 		},
 		{
 			"id": "86fa8a76-e7d5-4a12-920f-97c24fd83f01",
-			"img": "/src/assets/articles/the_developer_s_guide_to_ai_code_generation_tools_in_2025.jpg",
+			"img": "/articles/the_developer_s_guide_to_ai_code_generation_tools_in_2025.jpg",
 			"title": "The Developer’s Guide to AI Code Generation Tools in 2025",
 			"date": "Jul. 1, 2025",
 			"category": "Software Engineering",
@@ -65,7 +65,7 @@
 		},
 		{
 			"id": "28e86da7-e126-40f9-b8f4-bf9839d46d4f",
-			"img": "/src/assets/articles/medical_imaging_meets_foundation_models.jpg",
+			"img": "/articles/medical_imaging_meets_foundation_models.jpg",
 			"title": "Medical Imaging Meets Foundation Models",
 			"date": "Jun. 28, 2025",
 			"category": "Biomedical Engineering / Artificial Intelligence",
@@ -74,7 +74,7 @@
 		},
 		{
 			"id": "55686c60-47ac-41d6-973b-c4ff8e1f5dc1",
-			"img": "/src/assets/articles/ai_for_drug_discovery.jpg",
+			"img": "/articles/ai_for_drug_discovery.jpg",
 			"title": "AI for Drug Discovery: From Molecules to Market",
 			"date": "Jun. 24, 2025",
 			"category": "Artificial Intelligence / Biomedical Engineering",
@@ -83,7 +83,7 @@
 		},
 		{
 			"id": "9a3a1d14-f65a-4d90-9919-df23cbfe1e4f",
-			"img": "/src/assets/articles/rust_vs_Go_vs_python.jpg",
+			"img": "/articles/rust_vs_Go_vs_python.jpg",
 			"title": "Rust vs. Go vs. Python: Choosing the Right Language for AI Infrastructure",
 			"date": "Jun. 21, 2025",
 			"category": "Software Engineering",
