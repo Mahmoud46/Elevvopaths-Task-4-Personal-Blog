@@ -1,0 +1,112 @@
+.card {
+	aspect-ratio: 16 / 10;
+	position: relative;
+	overflow: hidden;
+	border-radius: 1rem 1rem 1rem 0;
+	max-width: 500px;
+
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.title {
+		position: absolute;
+		bottom: 0;
+		background: var(--bg-color);
+		padding: 1rem 1rem 0 0;
+		max-width: 70%;
+		border-radius: 0 1rem 0 0;
+		color: var(--fg-color);
+		cursor: pointer;
+		&::before {
+			content: "";
+			position: absolute;
+			height: 3rem;
+			width: 3rem;
+			background: transparent;
+			top: calc(-3rem + 10px);
+			left: -10px;
+			border-radius: 0 0 0 1rem;
+			box-shadow: 10px -10px 0px 0px var(--bg-color) inset;
+			-webkit-box-shadow: 10px -10px 0px 0px var(--bg-color) inset;
+			-moz-box-shadow: 10px -10px 0px 0px var(--bg-color) inset;
+		}
+		&::after {
+			content: "";
+			position: absolute;
+			height: 3rem;
+			width: 3rem;
+			background: transparent;
+			bottom: -10px;
+			right: calc(-3rem + 10px);
+			border-radius: 0 0 0 1rem;
+			box-shadow: 10px -10px 0px 0px var(--bg-color) inset;
+			-webkit-box-shadow: 10px -10px 0px 0px var(--bg-color) inset;
+			-moz-box-shadow: 10px -10px 0px 0px var(--bg-color) inset;
+		}
+		.cat {
+			display: flex;
+			gap: 0.3rem;
+			span {
+				background: var(--sb-color);
+				font-size: 0.7rem;
+				padding: 0.2rem 0.3rem;
+				border-radius: 0.2rem;
+				display: -webkit-box;
+				-webkit-line-clamp: 1; /* Limit to 2 lines */
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				width: fit-content;
+			}
+		}
+		p {
+			&:nth-child(1) {
+				color: var(--fg-gray-color);
+				font-size: 0.8rem;
+			}
+			&:nth-child(2) {
+				display: -webkit-box;
+				-webkit-line-clamp: 1; /* Limit to 2 lines */
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				font-weight: 700;
+				font-size: 1.1rem;
+			}
+
+			&:last-child {
+				display: -webkit-box;
+				-webkit-line-clamp: 2; /* Limit to 2 lines */
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				font-size: 0.9rem;
+			}
+		}
+	}
+
+	&.big {
+		grid-column: span 2;
+		grid-row: span 2;
+		.title {
+			max-width: 70%;
+			p {
+				&:first-child {
+					font-size: 2rem;
+
+					@media (max-width: 750px) {
+						font-size: 1rem;
+					}
+				}
+			}
+		}
+
+		@media (max-width: 750px) {
+			grid-column: span 1;
+			grid-row: span 1;
+		}
+	}
+}

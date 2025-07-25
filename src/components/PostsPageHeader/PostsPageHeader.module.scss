@@ -1,0 +1,63 @@
+.posts-page-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	h1 {
+		background: linear-gradient(54deg, #08a4fe, #df08ec);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		color: transparent;
+		font-weight: 400;
+		font-size: 2rem;
+	}
+	.search-filter {
+		display: flex;
+		gap: 1rem;
+		flex-wrap: wrap;
+
+		.search,
+		.filter {
+			display: flex;
+			align-items: center;
+			position: relative;
+
+			label {
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: var(--fg-gray-color);
+				cursor: pointer;
+				transition: 0.5s ease-in-out all;
+			}
+
+			input,
+			select {
+				background: none;
+				border: none;
+				padding: 0.5rem 0.5rem 0.5rem 2rem;
+				outline: none;
+				color: var(--fg-color);
+				border-bottom: 1px solid var(--fg-gray-color);
+				transition: 0.5s ease-in-out all;
+
+				&:focus {
+					& ~ label {
+						color: var(--fg-color);
+					}
+					border-bottom: 1px solid var(--fg-color);
+				}
+
+				option {
+					background: var(--bg-color);
+					color: var(--fg-color);
+					border: none;
+				}
+			}
+		}
+	}
+}

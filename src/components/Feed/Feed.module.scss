@@ -1,0 +1,24 @@
+.feed {
+	color: var(--fg-color);
+
+	&.max {
+		min-height: 100dvh;
+	}
+
+	.articles-container {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+		grid-auto-flow: row;
+		gap: 1rem;
+		padding: 1rem 0;
+		@media (max-width: 750px) {
+			grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		}
+	}
+	.no-porject-found {
+		height: 100dvh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}

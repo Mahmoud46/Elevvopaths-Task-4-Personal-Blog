@@ -1,0 +1,29 @@
+footer {
+	background: var(--sb-color);
+	padding: 1rem 2rem;
+	margin-top: 4rem;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	.brand {
+		img {
+			height: 3rem;
+		}
+	}
+
+	.social {
+		display: flex;
+		gap: 1rem;
+		a {
+			transition: 0.5s ease-in-out all;
+			img {
+				height: 1.5rem;
+			}
+
+			&:hover {
+				transform: scale(1.1);
+			}
+		}
+	}
+}
