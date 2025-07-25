@@ -13,10 +13,9 @@ export default function BlogArticle(): ReactNode {
 	const { id } = useParams();
 
 	useEffect(() => {
-		console.log(id);
 		const articleIndex = blogPosts.findIndex((post) => post.id == id);
 		if (articleIndex != -1) setArticle(blogPosts[articleIndex]);
-	}, [id]);
+	}, [id, blogPosts]);
 	return (
 		<section className={styles.article}>
 			{article && (
