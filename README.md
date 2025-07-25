@@ -7,6 +7,11 @@
 - **Article page**: Contains the full post, and related posts.
 - **Post card**: Consists of title, image, category, summary
 
+## Features
+
+- Dark and light mode are provided
+- Fully responsive
+
 ## Data
 
 - Data is retrieved from a json file
