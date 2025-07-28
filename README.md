@@ -16,6 +16,10 @@
 
 - Data is retrieved from a json file
 
-# Tools
+## Tools
 
 - React.js| TypeScript (TS) | CSS/SCSS | Framer Motion | React Router Dom
+
+## Demo
+
+(Live Demo)[https://elevvopaths-task-4-personal-blog.vercel.app/]
