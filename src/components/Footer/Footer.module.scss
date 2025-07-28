@@ -6,6 +6,11 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
+	@media (max-width: 500px) {
+		padding: 0.5rem;
+	}
+
 	.brand {
 		img {
 			height: 3rem;

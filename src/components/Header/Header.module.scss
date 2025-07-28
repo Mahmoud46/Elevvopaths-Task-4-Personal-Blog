@@ -6,6 +6,9 @@ header {
 	width: 100%;
 	padding: 1rem 2rem;
 
+	@media (max-width: 500px) {
+		padding: 0.5rem;
+	}
 	&.scroll {
 		position: fixed;
 		background: var(--bg-h-color);

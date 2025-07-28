@@ -64,4 +64,5 @@ a {
 	color: var(--fg-gray-color);
 	text-align: center;
 	font-size: 0.9rem;
+	background: var(--sb-color);
 }

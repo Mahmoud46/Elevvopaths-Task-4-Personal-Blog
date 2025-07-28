@@ -22,4 +22,4 @@
 
 ## Demo
 
-(Live Demo)[https://elevvopaths-task-4-personal-blog.vercel.app/]
+[Personal blog live demo](https://elevvopaths-task-4-personal-blog.vercel.app/)
